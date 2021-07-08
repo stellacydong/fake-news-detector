@@ -1,9 +1,0 @@
-Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
-[GCC 9.3.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> [K>>> f[Koyt[K[K[Kpython3 app.py
-  File "<stdin>", line 1
-    python3 app.py
-            ^
-SyntaxError: invalid syntax
->>> 
