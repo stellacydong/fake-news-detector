@@ -1,0 +1,189 @@
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ [K]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ f[Kpth[K[K[Kpython3 f[Kfake_news_LSTM
+python3: can't open file 'fake_news_LSTM': [Errno 2] No such file or directory
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 05:57:33.622710: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 05:57:33.622768: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: roses are red
+['', '', '', '', '', '', '', '', '', '', '', '', '']
+2021-07-01 05:57:40.258659: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 05:57:40.258712: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 05:57:40.258756: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 05:57:40.259041: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 05:57:41.037541: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 05:57:41.038095: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 05:58:01.733259: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 05:58:01.733313: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: rose are red
+12
+2021-07-01 05:58:07.040110: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 05:58:07.040170: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 05:58:07.040201: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 05:58:07.040483: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 05:58:07.819399: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 05:58:07.819908: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 05:58:31.993082: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 05:58:31.993142: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+d News: Biden is current president
+26
+2021-07-01 05:58:40.997713: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 05:58:40.997775: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 05:58:40.997823: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 05:58:40.998127: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 05:58:41.827957: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 05:58:41.828545: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 05:58:47.073389: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 05:58:47.073468: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Trump is curent   c rent present    sident
+26
+2021-07-01 05:58:57.386151: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 05:58:57.386211: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 05:58:57.386241: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 05:58:57.386524: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 05:58:58.161414: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 05:58:58.161968: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 05:59:06.077435: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 05:59:06.077491: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: S Michael is the presen  ident of USA
+31
+2021-07-01 05:59:15.497017: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 05:59:15.497064: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 05:59:15.497093: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 05:59:15.497397: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 05:59:16.274777: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 05:59:16.275324: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ f[Kb[Kpiy[K[Kython3 [K[K[K[K[K[K[K[Kpython3 fake_news_LSTM.py
+2021-07-01 05:59:58.858012: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 05:59:58.858081: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Bill Cosby “has been released” from prison, according to Pennsylvania Department of Corrections spokesperson Maria Bevins.
+/usr/lib/python3/dist-packages/bs4/__init__.py:311: UserWarning: "b'.'" looks like a filename, not markup. You should probably open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+122
+2021-07-01 06:00:03.215675: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:00:03.215741: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:00:03.215796: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:00:03.216078: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:00:03.874691: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:00:03.875225: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:01:31.306894: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:01:31.306959: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Donald Trump Sends Out Embarrassing New Year’s Eve Message; This is Disturbing
+78
+2021-07-01 06:01:35.446997: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:01:35.447048: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:01:35.447079: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:01:35.447360: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:01:36.213311: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:01:36.213854: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:02:01.110835: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:02:01.110902: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Joe Biden Just Wrecked Trump In Six Words And It’s Hilarious
+60
+2021-07-01 06:02:05.099870: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:02:05.099943: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:02:05.099995: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:02:05.100283: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:02:05.876748: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:02:05.877303: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:02:28.936131: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:02:28.936199: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Leaked Documents Prove Trump Took Laundered Money From Russian Bank
+67
+2021-07-01 06:02:32.783031: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:02:32.783080: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:02:32.783112: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:02:32.783380: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:02:33.538646: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:02:33.539169: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+true news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:03:38.247736: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:03:38.247804: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Leaked Documents Prove Trump Took Laundered Money From Russian Bank
+67
+2021-07-01 06:03:42.737149: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:03:42.737214: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:03:42.737268: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:03:42.737554: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:03:43.978558: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:03:43.979090: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+fake news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ f[Kpython3 install f[Kf[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3 fake_news_LSTM.py
+2021-07-01 06:04:28.340888: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:04:28.340957: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Bill Cosby “has been released” from prison, according to Pennsylvania Department of Corrections spokesperson Maria Bevins.
+/usr/lib/python3/dist-packages/bs4/__init__.py:311: UserWarning: "b'.'" looks like a filename, not markup. You should probably open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+122
+2021-07-01 06:04:32.229743: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:04:32.229822: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:04:32.229884: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:04:32.230157: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:04:33.452784: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:04:33.453328: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+fake news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:04:50.646339: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:04:50.646397: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: Trump strategy document says Russia meddles in domestic affairs worldwide
+73
+2021-07-01 06:04:54.763077: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:04:54.763124: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:04:54.763170: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:04:54.763456: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:04:55.979927: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:04:55.980448: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+fake news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:05:00.615161: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:05:00.615218: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: f tur   rose are red
+12
+2021-07-01 06:05:07.777117: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:05:07.777184: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:05:07.777220: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:05:07.777492: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:05:09.009093: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:05:09.009642: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+fake news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ python3 fake_news_LSTM.py
+2021-07-01 06:05:32.887260: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-07-01 06:05:32.887324: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+News: New York governor questions the constitutionality of federal tax overhaul
+73
+2021-07-01 06:05:36.824856: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-07-01 06:05:36.824922: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-07-01 06:05:36.824973: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f0025576f079): /proc/driver/nvidia/version does not exist
+2021-07-01 06:05:36.825238: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 06:05:38.184848: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-01 06:05:38.185421: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2400050000 Hz
+fake news
+]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ ]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ [K]0;~/Stella_WebSite1[01;34m~/Stella_WebSite1[00m$ 
