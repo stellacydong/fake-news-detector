@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 from flask_cors import cross_origin
 import sklearn
-import pickle
+import pickle5 as pickle
 import pandas as pd
 import nltk
 nltk.download('stopwords')
@@ -16,9 +16,9 @@ from utils import get_base_url, allowed_file, and_syntax
 
 
 # setup the webservver
-port = 12345
-base_url = get_base_url(port)
-app = Flask(__name__, static_url_path=base_url+'static')
+# port = 12345
+# base_url = get_base_url(port)
+app = Flask(__name__)
 
 
 IMAGE_FOLDER=os.path.join('static','images')
@@ -32,12 +32,12 @@ with open('tfidf1.pkl','rb') as f2:
     
 
 
-@app.route(base_url)
+@app.route('/')
 def home():
     return render_template('home.html')
 
 
-@app.route(base_url+"/result",methods=["GET","POST"])
+@app.route("/result",methods=["GET","POST"])
 @cross_origin()
 def result():
 	if request.method=="POST":
@@ -67,10 +67,9 @@ def result():
 
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # change the code.ai-camp.org to the site where you are editing this file.
-    print("Try to open\n\n    https://cocalc8.ai-camp.org" + base_url + '\n\n')
+#    print("Try to open\n\n    https://cocalc8.ai-camp.org" + base_url + '\n\n')
     # remove debug=True when deploying it
-    app.run(host = '0.0.0.0', port=port, debug=True)
-    import sys; sys.exit(0)
-
+#    app.run(host = '0.0.0.0', port=port, debug=True)
+#    import sys; sys.exit(0)
